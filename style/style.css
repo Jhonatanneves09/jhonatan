@@ -33,19 +33,21 @@ body {
 
 .cabecalho{
             padding: 2% 0% 0% 15%;
-        
+            font-size: 1000px;       
+    
         
             }
 
 .cabecalho-menu{
             display: flex;
             gap: 70px;
+            font-size: 1000px; 
  }
 
 .cabecalho-menu-links{
 
                 font-family:'Montserrat' , sans-serif;
-                font-size: 24px;
+                font-size: 43px; 
                 font-weight: 600;
                 color: #c4e410;
                 text-decoration: none;
@@ -128,7 +130,7 @@ body {
     
         /* Alinha o texto justificado */
         text-align: justify;
-        color: #c4e410;
+        color: white;
     }
     
     /* Estilos para elementos com a classe .apresentacao-conteudo-paragrafo */
@@ -470,24 +472,39 @@ body {
     }
     
     .rodape {
-        color: rgb(158, 238, 8);
-        background-color: #000000;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        text-align: center;
-        font-family: 'Krona One', sans-serif;
-        font-size: 18px;
-        font-weight: 400;
-        padding: 20px;
-    }
-    
-    .rodape a:hover {
-        color: #1c08ce;
+        position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #c4e410;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: 'Krona One', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+/* Estilo de link no rodapé */
+.rodape a:hover {
+    color: rgb(6, 207, 214);
     }
     
         
-            
+    .apresentacao-conteudo-titulo2 {
+        font-size: 36px;
+    
+        /* Define a família de fontes como 'Krona One' com fallback para sans-serif */
+        font-family: 'Krona One', sans-serif;
+    
+        /* Alinha o texto justificado */
+        text-align: justify;
+        color:rgb(158, 238, 8);
+
+    }
             
         
         
